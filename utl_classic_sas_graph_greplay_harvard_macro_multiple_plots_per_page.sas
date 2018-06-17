@@ -30,7 +30,7 @@ PROCESS  (once you have creaed and loaded the catalog)
 =======================================================
 
   goptions display;
-  proc greplay nofs igout=gseg gout=tempcat tc=tempcat;
+  proc greplay nofs igout=tempcat gout=tempcat tc=tempcat;
     template template;
     treplay 1:Sex
             2:Age
